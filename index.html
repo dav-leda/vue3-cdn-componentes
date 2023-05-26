@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue CDN - Componentes - Directivas</title>
+
+  <link rel="stylesheet" href="assets/main.css">
+
+  <!-- Al usar modulos (type="module") no es necesario importar
+  la librería de Vue en index.html  -->
+
+  <!-- Al usar el atributo defer no es necesario poner el script 
+  al final del body -->
+  
+  <script type="module" src="main.js" defer></script>
+
+</head>
+<body>
+
+  <div id="app">
+    
+    <vue-component :prop1="data1"></vue-component>
+    
+    <h2 v-happy>Ve happy</h2>
+    <h2 v-sad>Ve sad</h2>
+  
+  </div>
+
+</body>
+
+</html>
