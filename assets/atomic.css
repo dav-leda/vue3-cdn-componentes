@@ -12,6 +12,7 @@
 .hide { display: none; }
 .u { text-decoration: underline; }
 .bold { font-weight: bold; }
+.rounded { border-radius: 0.3rem; }
 
 .m-05 { margin: 0.5rem; }
 .m-1 { margin: 1rem; }

@@ -1,14 +1,14 @@
 
 
-import VueComponent from './components/vueComponent.js'
+import ComponenteUno from './components/componenteUno.js'
 
 export default {
 
   data: () => ({
-    data1: 'Directivas personalizadas en Vue.js',
+    data1: 'prop drilling',
   }),
 
   components: {
-    VueComponent
+    ComponenteUno
   }
 }
