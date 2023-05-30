@@ -7,7 +7,7 @@ export default {
   // Si declaro data con el mismo nombre de la prop
   // el contenido de data pisa la prop
   data: () => ({
-    prop2: 'otra cosa'
+    //prop2: 'otra cosa'
   }),
 
 
