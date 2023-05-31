@@ -4,7 +4,7 @@ export default {
     prop2: String
   },
 
-  // JO: Si declaran una propiedad de data con el mismo nombre de la prop
+  // OJO: Si declaran una propiedad de data con el mismo nombre de la prop
   // el contenido de data pisa la prop
   data: () => ({
     //prop2: 'otra cosa'
