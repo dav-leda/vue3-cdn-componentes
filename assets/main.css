@@ -44,12 +44,12 @@ body {
 
 @media screen and (max-width:600px) and (min-width: 470px) {
   :root {
-    --font-size: 1.1rem;
+    --font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 469px) {
   :root {
-    --font-size: 1rem;
+    --font-size: 0.8rem;
   }
 }

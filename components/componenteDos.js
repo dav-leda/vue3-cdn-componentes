@@ -15,7 +15,8 @@ export default {
 
     <div class="p-1 m-1 border rounded">
       <h2>Componente 2:</h2>
-      <p>Prop desde App: {{ prop2 }}</p>
+      <p>Prop desde App a través de Componente 1:</p>
+      <p class="bold">{{ prop2 }}</p>
     </div>
   `
 }
