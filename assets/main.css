@@ -32,8 +32,8 @@ body {
 }
 
 #app {
-  max-width: calc(var(--font-size) * 30);
-  margin: 0 auto;
+  max-width: calc(var(--font-size) * 24);
+  margin: 3rem auto;
 }
 
 @media screen and (min-width: 1000px) {

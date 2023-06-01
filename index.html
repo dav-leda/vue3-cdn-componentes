@@ -19,7 +19,7 @@
 </head>
 <body>
 
-  <div id="app">
+  <div id="app" class="border rounded">
     
     <!-- En index.html no es posible usar self-closing tags: <componente-uno/> 
     porque los elementos siguientes no se renderizan.
@@ -27,6 +27,8 @@
     Tampoco es posible usar PascalCase, hay que usar kebab-case.
     Y acá solo pueden usarse los componentes declarados en App -->
     
+    <h1 class="center mt-1">App</h1>
+
     <componente-uno :prop1="data1"></componente-uno>
     
     <p class="center">elemento html nativo</p>
