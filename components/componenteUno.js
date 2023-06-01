@@ -11,11 +11,13 @@ export default {
     prop1: String
   },
 
-  // En el template sí es posible poner self-closing tags
-  // Y tambien se puede usar PascalCase
+  // En el template, a diferencia de index.html 
+  // es posible poner self-closing tags: <componente-dos/>
+  // Y tambien se puede usar PascalCase: <ComponenteDos/>
   
   // Resaltado de sintaxis con la extensión Inline HTML para VS Code
   // Hay que poner /*html*/ antes del backtick: 
+  
   template: /*html*/ `
 
     <div class="m-2 p-1 border rounded center">
